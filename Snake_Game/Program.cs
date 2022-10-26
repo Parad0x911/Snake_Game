@@ -1,5 +1,4 @@
 ﻿using System;
-using 
 
 
 
@@ -13,8 +12,11 @@ namespace Snake_Game
             //Debut de jeu
             Console.WriteLine("Press any key to start");
             Console.ReadKey();
-            
-            Console.WriteLine("a[{0},{1}] = {2}", i, j, a[i, j]);
+
+            //Ce qui doit normalement marcher (affichage du tableau)
+            //Console.WriteLine("a[{0},{1}] = {2}", i, j, a[i, j]);
+            //Ce qui est afficher a la place.
+            Console.WriteLine("a[{0},{1}] = {2}");
 
 
 
